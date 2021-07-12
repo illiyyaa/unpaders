@@ -1,0 +1,12 @@
+.tag {
+    color: #FDB000;
+}
+
+.taag a:hover {
+    text-decoration: none;
+    color: #18B5FC;
+}
+
+h6 > a{
+    color: #000000;
+}

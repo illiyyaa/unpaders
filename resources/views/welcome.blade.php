@@ -35,6 +35,10 @@
                 color: #000000;
             }
 
+            h5{
+                color: #000;
+            }
+
             .form-control:focus {
             box-shadow: none;
             }

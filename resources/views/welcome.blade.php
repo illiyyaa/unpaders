@@ -460,7 +460,7 @@
                     <div class="top-left">
                     <div class="topnav" id="myTopnav">
                     <div class="dropdown">
-                        <button class="dropbtn"><a href="{{ url('/loker')}}">HOME 
+                        <button class="dropbtn"><a href="{{ url('/')}}">HOME 
                         </button>
                     </div>
                     <div class="dropdown">

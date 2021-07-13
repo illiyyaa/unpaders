@@ -655,7 +655,7 @@
                         <div class="row">
                             <div class="col-sm-10">
                                 <button type="button" class="btn btn-style" data-dismiss="modal" style="margin-left: 40px; margin-top: 20px; width:100%">
-                                <a onclick="$('#mydaftar1').modal('hide');$('#mydaftar1').modal('show');" href='#' style="color:#FFFFFF; text-decoration:none;">Daftar Sebagai Alumni</a></button>
+                                <a onclick="$('#mydaftar').modal('hide');$('#mydaftar1').modal('show');" href='#' style="color:#FFFFFF; text-decoration:none;">Daftar Sebagai Alumni</a></button>
                             </div>
                         </div>
 			        </div>
@@ -663,7 +663,7 @@
                         <div class="row">
                             <div class="col-sm-10">
                                 <button type="button" class="btn btn-style" data-dismiss="modal" style="margin-left: 40px; margin-top: 20px; width:100%">
-                                <a onclick="$('#mydaftar2').modal('hide');$('#mydaftar2').modal('show');" href='#' style="color:#FFFFFF; text-decoration:none;">Daftar Sebagai Umum</a></button>
+                                <a onclick="$('#mydaftar').modal('hide');$('#mydaftar2').modal('show');" href='#' style="color:#FFFFFF; text-decoration:none;">Daftar Sebagai Umum</a></button>
                             </div>
                         </div>
                     </div>
@@ -732,6 +732,10 @@
                 <input type="dropdown" class="form-control" id="exampleInputPassword1" >
                 </div>
                 <div class="form-group">
+                <label for="exampleInputEmail1">Alamat Lengkap*</label>
+                <input type="text" class="form-control" id="Fullname">
+                </div>
+                <div class="form-group">
                 <label for="exampleInputPassword1">Foto*</label>
                 <input type="file" class="form-control-file" id="exampleFormControlFile1">
                 </div>
@@ -775,6 +779,10 @@
                 <div class="form-group">
                 <label for="exampleInputEmail1">Email*</label>
                 <input type="email" class="form-control" id="exampleInputEmail1">
+                </div>
+                <div class="form-group">
+                <label for="exampleInputEmail1">Alamat Lengkap*</label>
+                <input type="text" class="form-control" id="Fullname">
                 </div>
                 <div class="form-group">
                 <label for="exampleInputPassword1">Foto*</label>

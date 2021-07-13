@@ -19,6 +19,10 @@ class DetailController extends Controller
     {
         return view('detail1');
     }
+    public function detailloker()
+    {
+        return view('detailloker');
+    }
 
 }
 

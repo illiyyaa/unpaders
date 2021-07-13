@@ -55,3 +55,4 @@ Route::get('/lapak/umkmcenter', 'LapakController@umkmcenter')->name('umkmcenter'
 
 Route::get('/detail', 'DetailController@detail')->name('detail');
 Route::get('/detail1', 'DetailController@detail1')->name('detail1');
+Route::get('/detailloker', 'DetailController@detailloker')->name('detailloker');

@@ -116,12 +116,13 @@ for (var i = 0; i < btns.length; i++) {
                 </div>
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0 taag">
                     <a href="{{url('/loker')}}" class="tag">LOKER</a> 
-                    <h6><a href="{{url('/detail')}}">Ini Tiga Rekomendasi Konferensi Covid-19 IKA Unpad</a></h6>
-                    <p>UNPADERS. Konferensi internasional mengenai pandemi Covid-19 yang diselengagrakan Ikatan Keluarga Alumni Universitas Padjajaran (IKA Unpad) bekerja sama dengan Kamar Dagang Indonesia (Kadin), dan Isla ...</p>  
-                    <span class="time">TIM UNPADERS <i class="fa fa-clock-o" style="color: #8A8A8A;"></i> Kamis, 25 Februari 2021</span>
+                    <h6><a href="{{url('/detailloker')}}">BI Buka Lowongan Kerja untuk 16 Jurusan Ini, Simak Syarat dan Cara Mendaftarnya</a></h6>
+                    <p>UNPADERS. Bank Indonesia (BI) kembali membuka lowongan kerja jalur Penerimaan Calon Pegawai Muda (PCPM-BI) angkatan ke-35. Pendaftaran calon karyawan baru tersebut akan dilaksanakan mulai hari ini, 5 ...</p>  
+                    <span class="time">TIM UNPADERS <i class="fa fa-clock-o" style="color: #8A8A8A;"></i> Sabtu, 05 September 2020</span>
                 </div>
-                 <hr>
-            </li>
+            </div>
+            <hr> 
+            </li> 
             <li class="filterDiv freelancer ">
             <div class="row ">
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
@@ -129,11 +130,12 @@ for (var i = 0; i < btns.length; i++) {
                 </div>
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0 taag">
                     <a href="{{url('/loker')}}" class="tag">LOKER</a>
-                    <h6><a href="{{url('/detail')}}">Irawati Hermawan: Penanganan Covid-19 Perlu Kolaborasi</a></h6> 
-                    <p>UNPADERS. Ikatan Alumni Universitas Padjadjaran (IKA Unpad) akan menyelenggarakan Konferensi asional untuk mengatasi pandemi Covid-19 dari aspek kesehatan, ekonomi, serta perspektif sosial. Konf ...</p>  
-                    <span class="time">TIM UNPADERS <i class="fa fa-clock-o" style="color: #8A8A8A;"></i> Kamis, 25 Februari 2021</span>
+                    <h6><a href="{{url('/detailloker')}}">Lowongan Kerja di Kantor Susi Pudjiastuti 2020</a></h6> 
+                    <p>Mari bergabung bersama Kantor Susi Pudjiastuti. Dibuka tanggal 13-27 Agustus 2020, bagi yang tertarik dapat langsung akses bit.ly/lokerKSP 👍</p>  
+                    <span class="time">TIM UNPADERS <i class="fa fa-clock-o" style="color: #8A8A8A;"></i> Sabtu, 05 September 2020</span>
                 </div>
-                <hr>
+            </div>
+            <hr>
             </li>
             <li class=" filterDiv intern ">
             <div class="row">
@@ -142,11 +144,12 @@ for (var i = 0; i < btns.length; i++) {
                 </div>
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0 taag">
                     <a href="{{url('/loker')}}" class="tag">LOKER</a>
-                    <h6><a href="{{url('/detail')}}">Ketua ICCIA: Hadapi Pandemi Covid-19, Tak Ada Ruang untuk Pesimisd</a></h6> 
-                    <p>UNPADERS. Bangsa-bangsa di dunia perlu memperkuat solidaritas  untuk mencari cara menciptakan dunia yang lebih baik. Salah satu yang sangat krusial adalah memikirkan cara untuk menghidupkan kemba ...</p>  
-                    <span class="time">TIM UNPADERS <i class="fa fa-clock-o" style="color: #8A8A8A;"></i> Kamis, 25 Februari 2021</span>
+                    <h6><a href="{{url('/detail')}}">Lowongan Kerja Staf Dubes Kementerian Luar Negeri</a></h6> 
+                    <p>UNPADERS. Lowongan Kerja Staf Dubes Kementerian Luar Negeri untuk Lulusan D3-S1, Pendaftaran Dibuka 1 Agustus Kementerian Luar Negeri membuka lowongan pekerjaan untuk WNI yang dapat memenuhi syarat ...</p>  
+                    <span class="time">TIM UNPADERS <i class="fa fa-clock-o" style="color: #8A8A8A;"></i> Jumat, 14 Agustus 2020</span>
                 </div>
-                <hr>
+            </div>
+            <hr>
             </li>
             <li class=" filterDiv intern">
             <div class="row filterDiv intern">
@@ -159,7 +162,8 @@ for (var i = 0; i < btns.length; i++) {
                     <p>Usep Setiawan, Alumni Antropologi Unpad 1991, mantan Ketua Human Unpad 1995-1996 DALAM salah satu aksi mahasiswa Unpad di Kampus, Jl. Dipatiukur, Bandung, tahun 1994-an, saya orasi membuka aksi ...</p>  
                     <span class="time">TIM UNPADERS <i class="fa fa-clock-o" style="color: #8A8A8A;"></i> Kamis, 25 Februari 2021</span>
                 </div>
-                <hr>
+            </div>
+            <hr>
             </li>
             <li class=" filterDiv intern ">
             <div class="row filterDiv intern">
@@ -172,6 +176,7 @@ for (var i = 0; i < btns.length; i++) {
                     <p>UNPADERS. Diharapkan 1.000 peserta dari 70 negara akan menghadiri konferensi internasional mengenai penanganan pandemi Covid-19 yang akan diselenggarakan Ikatan Keluarga Alumni Universitas Padjadjaran ...</p>  
                     <span class="time">TIM UNPADERS <i class="fa fa-clock-o" style="color: #8A8A8A;"></i> Kamis, 25 Februari 2021</span>
                 </div>
+            </div>
             </li>
             <br>
         </ul>

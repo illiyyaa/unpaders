@@ -75,7 +75,7 @@ p{
                     <input type="text" class="form-control" id="alamat">
                 </div>
                 <div class="col-2">
-                    <button class="btn btn-style"><a href="{{url('/detail')}}" style="text-decoration:none; color: #FFFFFF;">Kirim</a></button>
+                    <button class="btn btn-style"><a href="{{url('/detail1')}}" style="text-decoration:none; color: #FFFFFF;">Kirim</a></button>
                 </div>
             </div>
             <br>

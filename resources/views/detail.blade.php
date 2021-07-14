@@ -77,6 +77,8 @@ p{
             Pandemi Covid-19 menuntut masyarakat seluruh dunia untuk beradaptasi dengan kebudayaan baru alias new normal. Kita harus bersiap bahwa pandemi Covid-19 bukanlah pandemi terakhir yang akan dihadapi di masa depan. Karena itulah jika kita berhasil membangun budaya dan norma-norma baru saat ini, maka kita bisa lebih mampu bertahan di masa depan.
             Salah satu yang urgen adalah investasi di bidang keilmuan, termasuk di dalamnya pembangunan laboratorium yang lebih canggih, penelitian yang lebih masif, kerja sama ilmiah dengan berbagai negara dan lembaga internasional, dan terutama bagaimana mengupayakan produksi vaksin secara independen.</p>
             <hr>
+            <h6 style="font-size: 16px; color:#8A8A8A"><button onClick="hello()" style="background:none; border:none; color:#8A8A8A"><i class="fa fa-thumbs-up"></i></button><a id="clicks">0</a></h6>
+            <br>                
             <h4>KOMENTAR (0)</h4>
             <div class="row">
                 <div class="col-10">
@@ -108,9 +110,7 @@ p{
                                     document.getElementById("clicks").innerHTML = clicks;
                                 };
                                 </script>
-                                <div class="row">
-                                    <h6 style="font-size: 12px; color:#8A8A8A"><button onClick="hello()" style="background:none; border:none; color:#8A8A8A"><i class="fa fa-thumbs-up"></i></button><a id="clicks">0</a> | 1 menit yang lalu </h6>
-                                </div>
+                                <h6 style="font-size: 12px; color:#8A8A8A"><button onClick="hello()" style="background:none; border:none; color:#8A8A8A"><i class="fa fa-thumbs-up"></i></button><a id="clicks">0</a> | 1 menit yang lalu </h6>
                             </div>              
                         </div>
                         </li>                  

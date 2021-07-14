@@ -432,7 +432,7 @@
                 <div class="carousel-item car-height">
                     <img src="/img/gambar2.jpg" class="d-block w-100  h-100" alt="gambar">
                     <div class="carousel-caption d-none d-md-block">
-                    <h4>Ini Tiga Rekomendasi Konferensi Covid-19 IKA Unpad</h4>
+                    <h4>Ini Tiga Rekomendasi Konferensi Covid-19 IKA Unpad</a></h4>
                     <p>TIM UNPADERS</p>
                     </div>
                 </div>

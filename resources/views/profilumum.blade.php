@@ -40,7 +40,7 @@ label{
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="{{url('/profil')}}"><img src="/img/user.png"></a>
+                        <a class="nav-link" href="{{url('/profilumum')}}"><img src="/img/user.png"></a>
                     </li>
                 </ul>
             </div>
@@ -101,7 +101,7 @@ label{
                     </div>
                 </div>
 			</div>			
-			<button type="submit" class="btn btn-style"><a href="{{url('/profil')}}">Kirim</a></button>
+			<button type="submit" class="btn btn-style"><a href="{{url('/profilumum')}}">Kirim</a></button>
             <button type="cancel" class="btn btn-stylered">Batal</button>
 		</form>		
     </div>

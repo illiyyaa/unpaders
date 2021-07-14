@@ -746,39 +746,39 @@
             </form>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-style"><a href="{{ url('/')}}" style="text-decoration:none; color: #FFFFFF;">Daftar</button>
+                <button type="button" class="btn btn-style"><a onclick="$('#mydaftar1').modal('hide');$('#mylogin1').modal('show');" href='#' style="color:#FFFFFF; text-decoration:none;">Daftar</a></button>
                 </div>
                 </div>
             </div>
             </div>
 
-            <div id="mydaftar2" class="modal fade" role="dialog" aria-labelledby="exampleModalLongTitle">
-            <div class="modal-dialog modal-dialog-scrollable">
+            <div id="mydaftar2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
 
                 <!-- Modal content-->
-                <div class="modal-content" style="color: #FFFBFB;">
-                <div class="modal-header" style="color: #FFFBFB;">
+                <div class="modal-content">
+                <div class="modal-header">
                 <h4 class="modal-title" id="exampleModalLongTitle" style="color: #FDB000;">Daftar</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
 
                 </div>
-                <div class="modal-body" style="color: #FFFBFB;">
+                <div class="modal-body">
                     <form>
                 <div class="form-group">
                 <label for="exampleInputEmail1">Nama Lengkap*</label>
-                <input type="text" class="form-control" id="Fullname">
+                <input type="text" class="form-control" id="Fullname" >
                 </div>
                 <div class="form-group">
-                <label for="exampleInputPassword1">Kata Sandi*</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <label for="exampleInputEmail1">Kata Sandi*</label>
+                <input type="password" class="form-control" id="username" >
                 </div>
                 <div class="form-group">
-                <label for="exampleInputPassword1">Konfirmasi Kata Sandi*</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <label for="exampleInputEmail1">Konfirmasi Kata Sandi*</label>
+                <input type="password" class="form-control" id="exampleInputEmail1" >
                 </div>
                 <div class="form-group">
                 <label for="exampleInputEmail1">Email*</label>
-                <input type="email" class="form-control" id="exampleInputEmail1">
+                <input type="email" class="form-control" id="exampleInputPassword1" >
                 </div>
                 <div class="form-group">
                 <label for="exampleInputEmail1">Alamat Lengkap*</label>
@@ -789,18 +789,18 @@
                 <input type="file" class="form-control-file" id="exampleFormControlFile1">
                 </div>
                 <div class="form-group">
-                <label for="exampleInputEmail1">No HP/WA*</label>
-                <input type="text" class="form-control" id="Fullname" >
+                <label for="exampleInputPassword1">No.HP/WA</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" >
                 </div>
             </form>
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-style"><a href="{{ url('/artikel')}}" style="text-decoration:none; color: #FFFFFF;">Daftar</button>
+                <button type="button" class="btn btn-style"><a onclick="$('#mydaftar2').modal('hide');$('#mylogin2').modal('show');" href='#' style="color:#FFFFFF; text-decoration:none;">Daftar</a></button>
                 </div>
                 </div>
             </div>
             </div>
-            <!-- end modal daftar -->
+
 
             <!-- Modal login -->
             <div id="mylogin" class="modal fade" role="dialog">

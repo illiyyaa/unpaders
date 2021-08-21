@@ -59,9 +59,7 @@
 
     .content {
         text-align: center;
-    }
-
-    .content > 
+    } 
 
     .title {
         font-size: 84px;
@@ -100,13 +98,6 @@
     right: 0;
     z-index: 10; /* If you delete this line, your menu link won't be clicked because it is behind the background. Applying this code bring the menu in front of the background */
     }
-
-    /*.navbar-default .navbar-brand {
-    font-family: Poppins;
-    color: #ffffff;
-    font-size: 20px;
-    
-    }*/
 
 
     .navbar-default .navbar-nav > li > a {
@@ -176,7 +167,7 @@
     }
 
 
-    
+
     .topnav .icon {
     display: none;
     }
@@ -260,6 +251,17 @@
         }
     }
 
+.pagination{
+    padding: 10px;
+}
+    .pagination a {
+  border-radius: 5px;
+}
+
+.pagination a.active {
+  border-radius: 5px;
+ 
+}
 .page-item .page-link{
     color: #18B5FC;
 }
@@ -340,7 +342,7 @@
 </style>
 <body>
 <div class="container-fluid main">
-    <nav class="navbar navbar-default ">
+    <nav class="navbar navbar-default" style="position: fixed;">
         <div class="container-fluid ">
             <div class="navbar-header">
             <a class="navbar-brand" href="{{ url('/') }}"><img src="/img/logo unpaders.png"  width="150" height="40"></a>
@@ -359,8 +361,7 @@
                 </ul>
                 </div>
             <div>
-         
-            <div class="content">
+            <div class="container">
                 <div class="topnav" id="myTopnav" style="margin-left: 250px;">
                     <a href="{{url('/')}}" class="active">HOME</a>
                     <div class="dropdown">
@@ -404,20 +405,9 @@
                     </div>
                     </a>
                     <div>
-                    {{-- <div class="input-group mb-4 border rounded-pill p-1 top-right" >
-                        <input type="search" placeholder="Type here..." aria-describedby="button-addon3" class="form-control bg-none border-0">
-                        <div class="input-group-append border-0">
-                        <button id="button-addon3" type="button" class="btn btn-link text-success"><i class="fa fa-search" style="color: #18B5FC;"></i></button>
-                    </div> --}}
-
                     </div>
                     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
                     </div>
-                    {{-- <div class="input-group mb-4 border rounded-pill p-1 topnav" >
-                        <input type="search" placeholder="Type here..." aria-describedby="button-addon3" class="form-control bg-none border-0">
-                        <div class="input-group-append border-0">
-                        <button id="button-addon3" type="button" class="btn btn-link text-success"><i class="fa fa-search" style="color: #18B5FC;"></i></button>
-                    </div> --}}
                 </div>
             </div>
         </div>

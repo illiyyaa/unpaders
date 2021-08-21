@@ -61,8 +61,7 @@
                     <th>Alamat</th>
                     <th>Catatan</th>
                     <th>Status</th>
-                    <th><button class="btn btn-styleyellow">EDIT</button></th>
-                    <th><button class="btn btn-stylered">HAPUS</button></th>
+                    <th>Hapus</th>
                 </tr>
             </thead>
             <tbody>
@@ -74,7 +73,6 @@
                     <td>Bandung</td>
                     <td>Lengan Pendek</td>
                     <td>Dikirim</td>
-                    <td><button class="btn btn-styleyellow"><a href="{{url('/tambahArtikel')}}">EDIT</a></button></td>
                     <td><button class="btn btn-stylered">HAPUS</button></td>
                 </tr>
                  <tr>
@@ -85,7 +83,6 @@
                     <td>Bekasi</td>
                     <td>Lengan Pendek</td>
                     <td>Dikemas</td>
-                    <td><button class="btn btn-styleyellow"><a href="{{url('/tambahArtikel')}}">EDIT</a></button></td>
                     <td><button class="btn btn-stylered">HAPUS</button></td>
                 </tr>
                 <tr>
@@ -96,7 +93,6 @@
                     <td>Bandung</td>
                     <td>-</td>
                     <td>Dikemas</td>
-                    <td><button class="btn btn-styleyellow"><a href="{{url('/tambahArtikel')}}">EDIT</a></button></td>
                     <td><button class="btn btn-stylered">HAPUS</button></td>
                 </tr>
                

@@ -2,6 +2,7 @@
 
 @section ('content')
 <div class="container">
+
     <div class="row">
         <div class="col-lg-9 mx-auto">
             <ul class="list-unstyled mb-0">

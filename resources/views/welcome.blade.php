@@ -26,6 +26,7 @@
                 margin: 0;
             }
 
+
             label{
                 color: #000000;
                 font-weight: bold;
@@ -240,7 +241,7 @@
 
             .top-right {
                 position: absolute;
-                right: 50px;
+                right: 5px;
                 top: 18px;
             }
 
@@ -320,7 +321,7 @@
             }
 
             .car-height{
-                height: 50vh;
+                height: 80vh;
             }
             .container-fluid.main{
             position: relative; /* To make the navbar positions relative to this container */
@@ -390,11 +391,35 @@
                 right: 20px;
                 top: 18px;
             }
-           
+            .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
         </style>
     </head>
     <body>
-        <div class="container-fluid main">
+
+        <div class="container-fluid main">  
+            <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content modal-lg" style="background: linear-gradient(180deg, #F9EBCD 0%, #FFFFFF 100%);">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FDCD5E" fill-opacity="1" d="M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,176C672,171,768,213,864,229.3C960,245,1056,235,1152,218.7C1248,203,1344,181,1392,170.7L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+                    <div class="modal-body">
+                     <h4 class="modal-title" style="text-align:center;">SELAMAT DATANG</h4>
+                     <p style="text-align:center;">Unpaders adalah portal komunitas untuk alumni Universitas Padjadaran yang bertujuan untuk mewadahi keberagaman IKA Unpad. Khusus alumni Unpad, silakan daftar dan masuk sebagai alumni untuk menggunakan fitur tambah artikel.</p>
+                        <p><img src="/img/logo unpaders.png" class="center" width="150" height="40" style="position:center;" ></p>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#9FCEE5"  d="M0,96L48,106.7C96,117,192,139,288,133.3C384,128,480,96,576,106.7C672,117,768,171,864,186.7C960,203,1056,181,1152,149.3C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <script>
+            $('#myModal').modal('show');
+            </script>
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
                     <div class="navbar-header">
@@ -414,7 +439,6 @@
                 </div>
             </nav>
 
-            <div class="bd-example">
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -455,6 +479,7 @@
                 </div>
             </div>
             
+            <div class="container">
             <div class="flex-center position-ref full-height">
                 <div class="content">
                     <div class="top-left">
@@ -504,8 +529,8 @@
                     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
                     </div>
                     </div>
-                    <div class="input-group mb-4 border rounded-pill p-1 top-right">
-                        <input type="search" placeholder="Type here..." aria-describedby="button-addon3" class="form-control bg-none border-0">
+                    <div class="input-group mb-4 border rounded-pill p-1 top-right" style="width: 200px;">
+                        <input type="search" placeholder="Search" aria-describedby="button-addon3" class="form-control bg-none border-0">
                         <div class="input-group-append border-0">
                         <button id="button-addon3" type="button" class="btn btn-link text-success"><i class="fa fa-search" style="color: #18B5FC;"></i></button>
                         </div>
@@ -519,12 +544,12 @@
 
             <br>
             <!-- Grid container -->
-            <div class="container">
+            
             <!--Grid row-->
             <div class="row">
                 <!--Grid column-->
                 <div class="col-lg-3 ">
-                    <h5>TERKINI</h5>
+                    <h5 class="container">TERKINI</h5>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item"><a href="#">IKA Unpad di Puncak Sibayak</a></li>
                         <li class="list-group-item"><a href="#">Ketua ICCIA: Hadapi Pandemi Covid-19, Tak Ada Ruang untuk Pesimis</a></li>
@@ -689,19 +714,19 @@
                 <div class="modal-body">
                     <form>
                 <div class="form-group">
-                <label for="exampleInputEmail1">Nama Lengkap*</label>
+                <label>Nama Lengkap*</label>
                 <input type="text" class="form-control" id="Fullname" >
                 </div>
                 <div class="form-group">
-                <label for="exampleInputEmail1">Kata Sandi*</label>
+                <label>Kata Sandi*</label>
                 <input type="password" class="form-control" id="username" >
                 </div>
                 <div class="form-group">
-                <label for="exampleInputEmail1">Konfirmasi Kata Sandi*</label>
+                <label>Konfirmasi Kata Sandi*</label>
                 <input type="password" class="form-control" id="exampleInputEmail1" >
                 </div>
                 <div class="form-group">
-                <label for="exampleInputEmail1">Email*</label>
+                <label>Email*</label>
                 <input type="email" class="form-control" id="exampleInputPassword1" >
                 </div>
                 <div class="form-group">
@@ -728,19 +753,19 @@
                         </select>
                 </div>
                 <div class="form-group">
-                <label for="exampleInputPassword1">Angkatan*</label>
+                <label>Angkatan*</label>
                 <input type="dropdown" class="form-control" id="exampleInputPassword1" >
                 </div>
                 <div class="form-group">
-                <label for="exampleInputEmail1">Alamat Lengkap*</label>
+                <label>Alamat Lengkap*</label>
                 <input type="text" class="form-control" id="Fullname">
                 </div>
                 <div class="form-group">
-                <label for="exampleInputPassword1">Foto*</label>
+                <label>Foto*</label>
                 <input type="file" class="form-control-file" id="exampleFormControlFile1">
                 </div>
                 <div class="form-group">
-                <label for="exampleInputPassword1">No.HP/WA</label>
+                <label>No.HP/WA</label>
                 <input type="text" class="form-control" id="exampleInputPassword1" >
                 </div>
             </form>
@@ -765,23 +790,23 @@
                 <div class="modal-body">
                     <form>
                 <div class="form-group">
-                <label for="exampleInputEmail1">Nama Lengkap*</label>
+                <label>Nama Lengkap*</label>
                 <input type="text" class="form-control" id="Fullname" >
                 </div>
                 <div class="form-group">
-                <label for="exampleInputEmail1">Kata Sandi*</label>
+                <label>Kata Sandi*</label>
                 <input type="password" class="form-control" id="username" >
                 </div>
                 <div class="form-group">
-                <label for="exampleInputEmail1">Konfirmasi Kata Sandi*</label>
+                <label>Konfirmasi Kata Sandi*</label>
                 <input type="password" class="form-control" id="exampleInputEmail1" >
                 </div>
                 <div class="form-group">
-                <label for="exampleInputEmail1">Email*</label>
+                <label>Email*</label>
                 <input type="email" class="form-control" id="exampleInputPassword1" >
                 </div>
                 <div class="form-group">
-                <label for="exampleInputEmail1">Alamat Lengkap*</label>
+                <label>Alamat Lengkap*</label>
                 <input type="text" class="form-control" id="Fullname">
                 </div>
                 <div class="form-group">
@@ -853,8 +878,8 @@
                 <div class="modal-body">
                 <form>
                 <div class="form-group">
-                <label for="exampleInputEmail1">Nama Lengkap</label>
-                <input type="text" class="form-control" id="username" placeholder="Username" style="background-color: #FFFFFF;"></div>
+                <label>Email</label>
+                <input type="text" class="form-control" id="username" placeholder="Email" style="background-color: #FFFFFF;"></div>
                 <div class="form-group">
                 <label for="exampleInputPassword1">Kata Sandi</label>
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
@@ -883,8 +908,8 @@
                 <div class="modal-body">
                     <form>
                 <div class="form-group">
-                <label for="exampleInputEmail1">Nama Lengkap</label>
-                <input type="text" class="form-control" id="username" placeholder="Username">
+                <label>Email</label>
+                <input type="text" class="form-control" id="username" placeholder="Email">
                 </div>
                 <div class="form-group">
                 <label for="exampleInputPassword1">Kata Sandi</label>
@@ -900,6 +925,7 @@
             </div>
              <!-- End Modal Login -->
         </div>
+
         <script>
         function myFunction() {
         var x = document.getElementById("myTopnav");

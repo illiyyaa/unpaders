@@ -230,7 +230,7 @@
 
             .top-right {
                 position: absolute;
-                right: 50px;
+                right: 5px;
                 top: 18px;
             }
 
@@ -393,7 +393,7 @@
                     
                     </button>
                 <div>
-                    <div class="collapse" id="myNavbar"> {{--navbar-collapse td dlm clss--}}
+                    <div class="collapse" id="myNavbar"> 
                         <ul class="nav navbar-nav" style="position: absolute; right: 20px; top: 50px;">          
                         <li><img src="/img/en.png" width="20px;" height="20px;"><a href="#"> English</a></li>
                         <li><img src="/img/fr.png" width="20px;" height="20px;"><a href="#"> French</a></li>
@@ -447,7 +447,7 @@
                 </a>
                 </div>
             </div>
-            
+               <div class="container">
             <div class="flex-center position-ref full-height">
                 <div class="content">
                     <div class="top-left">
@@ -494,11 +494,12 @@
                         <button class="dropbtn"><a href="{{ url('/unpaders')}}">UNPADERS 
                         </button>
                     </div> 
+
                      <!-- End -->
                     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
                     </div>
                     </div>
-                    <div class="input-group mb-4 border rounded-pill p-1 top-right">
+                    <div class="input-group mb-4 border rounded-pill p-1 top-right" style="width: 200px;">
                         <input type="search" placeholder="Type here..." aria-describedby="button-addon3" class="form-control bg-none border-0">
                         <div class="input-group-append border-0">
                         <button id="button-addon3" type="button" class="btn btn-link text-success"><i class="fa fa-search" style="color: #18B5FC;"></i></button>
@@ -510,14 +511,12 @@
                 </div>
             </div>
 
-                <br>
-                <!-- Grid container -->
-                <div class="container">
+              
                 <!--Grid row-->
                 <div class="row">
                     <!--Grid column-->
                     <div class="col-lg-3 ">
-                        <h5>TERKINI</h5>
+                        <h5 class="container">TERKINI</h5>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item"><a href="#">IKA Unpad di Puncak Sibayak</a></li>
                             <li class="list-group-item"><a href="#">Ketua ICCIA: Hadapi Pandemi Covid-19, Tak Ada Ruang untuk Pesimis</a></li>

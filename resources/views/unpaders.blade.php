@@ -89,8 +89,8 @@ $(document).ready(function(){
             <table class="table table-bordered table-hover">
             <thead>
                 <tr class="filters">
-                    <th><input type="text" class="form-control" placeholder="No" disabled></th>
-                    <th><input type="text" class="form-control" placeholder="Foto" disabled></th>
+                    <th></th>
+                    <th></th>
                     <th><input type="text" class="form-control" placeholder="Nama" disabled></th>
                     <th><input type="text" class="form-control" placeholder="Fakultas" disabled></th>
                     <th><input type="text" class="form-control" placeholder="Angkatan" disabled></th>

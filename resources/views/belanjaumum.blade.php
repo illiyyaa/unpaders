@@ -58,7 +58,7 @@
                     <th>Alamat</th>
                     <th>Catatan</th>
                     <th>Status</th>
-                    <th><button class="btn btn-stylered">HAPUS</button></th>
+                    <th>Hapus</th>
                 </tr>
             </thead>
             <tbody>

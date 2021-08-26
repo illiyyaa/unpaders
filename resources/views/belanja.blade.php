@@ -3,7 +3,6 @@
 
 @section ('content')
   <div class="wrapper">
-
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
@@ -23,7 +22,6 @@
                 </li>
             </ul>
         </nav>
-
  <div id="content">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -75,16 +73,6 @@
                     <td>Dikirim</td>
                     <td><button class="btn btn-stylered">HAPUS</button></td>
                 </tr>
-                 <tr>
-                    <td>3</td>
-                    <td>10/07/2021</td>
-                    <td>Kaos Unpaders</td>
-                    <td>2</td>
-                    <td>Bekasi</td>
-                    <td>Lengan Pendek</td>
-                    <td>Dikemas</td>
-                    <td><button class="btn btn-stylered">HAPUS</button></td>
-                </tr>
                 <tr>
                     <td>2</td>
                     <td>21/06/2021</td>
@@ -92,6 +80,16 @@
                     <td>10</td>
                     <td>Bandung</td>
                     <td>-</td>
+                    <td>Dikemas</td>
+                    <td><button class="btn btn-stylered">HAPUS</button></td>
+                </tr>
+                    <tr>
+                    <td>3</td>
+                    <td>10/07/2021</td>
+                    <td>Kaos Unpaders</td>
+                    <td>2</td>
+                    <td>Bekasi</td>
+                    <td>Lengan Pendek</td>
                     <td>Dikemas</td>
                     <td><button class="btn btn-stylered">HAPUS</button></td>
                 </tr>

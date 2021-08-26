@@ -184,4 +184,3 @@ for (var i = 0; i < btns.length; i++) {
     </div>
 </div>
 @endsection
-
